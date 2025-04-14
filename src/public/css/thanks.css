@@ -1,0 +1,57 @@
+/* 基本のスタイル */
+body {
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+}
+
+/* サンクスページ全体のレイアウト */
+.thank-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+}
+
+/* "Thank you" 背景テキスト */
+.thank-background {
+    font-size: 12vw;
+    color: #f0edea;
+    position: absolute;
+    z-index: 0;
+    user-select: none;
+}
+
+/* メッセージとボタン */
+.thank-content {
+    position: relative;
+    z-index: 1;
+}
+
+/* メッセージのスタイル */
+.thank-message {
+    font-size: 18px;
+    color: #7d6e65;
+    margin-bottom: 20px;
+}
+
+/* HOMEボタン */
+.home-button {
+    padding: 10px 20px;
+    background-color: #7d6e65;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: opacity 0.3s;
+}
+
+/* HOMEボタンのホバー時 */
+.home-button:hover {
+    opacity: 0.9;
+}
