@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>サンクスページ</title>
+    <title>Contact Form</title>
     <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}">
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
 </head>
 <body>
     <div class="contact-container">
         <h1 class="contact-title">Contact</h1>
-        <form class="contact-form" action="/confirm" method="post" >
+        <form class="contact-form" action="/contact/confirm" method="post" >
         @csrf
             <div class="form-group">
                 <label>お名前 <span class="required">※</span></label>
