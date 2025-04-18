@@ -65,7 +65,7 @@
 
             <div class="form-group">
                 <label>お問い合わせ内容 <span class="required">※</span></label>
-                <textarea name="message" placeholder="お問い合わせ内容をご記載ください"></textarea>
+                <textarea name="detail" placeholder="お問い合わせ内容をご記載ください"></textarea>
             </div>
 
             <div class="form-button">
