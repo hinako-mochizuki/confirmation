@@ -1,8 +1,10 @@
 .contact-container {
-    max-width: 800px;
+    width: 972px;
+    height: 606px;
     margin: 0 auto;
     padding: 40px;
     background-color: #f8f8f8;
+    border: 1px;
 }
 
 .contact-title {
@@ -59,10 +61,11 @@ textarea {
 }
 
 .form-button button {
-    background-color: #7e6b5a;
+    background-color: #82756A;
     color: white;
-    padding: 10px 30px;
+    padding: 10px 40px;
+    gap:10px;
     border: none;
     font-size: 16px;
-    cursor: pointer;
+    
 }

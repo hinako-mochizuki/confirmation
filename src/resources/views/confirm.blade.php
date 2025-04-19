@@ -49,7 +49,7 @@
             <tr class="confirm-table__row">
               <th class="confirm-table__header">住所</th>
               <td class="confirm-table__text">
-                <input type="text" name="content" value="{{ $contact['adress'] }}" readonly/>
+                <input type="text" name="content" value="{{ $contact['address'] }}" readonly/>
               </td>
             </tr>
             <tr class="confirm-table__row">

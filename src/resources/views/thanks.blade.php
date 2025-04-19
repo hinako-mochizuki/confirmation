@@ -13,7 +13,7 @@
 
         <div class="thank-content">
             <p class="thank-message">お問い合わせありがとうございました</p>
-            <a href="{{ url('/') }}" class="home-button">HOME</a>
+            <a href="{{ root('/') }}" class="home-button">HOME</a>
         </div>
     </div>
 </body>
